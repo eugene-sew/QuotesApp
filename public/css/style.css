@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+  top: 10rem;
+  margin: 2rem;
+  padding: 50px;
+  display: grid;
+  place-content: center;
+}
+
+.quote-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  margin: 5rem;
+}
+
+.quote-list-item {
+  background: rgb(247, 247, 247);
+  border-radius: 5px;
+  box-shadow: 05px 05px 10px rgba(82, 81, 81, 0.33);
+  padding: 10px 15px;
+  margin: 1px 5px;
+}
